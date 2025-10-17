@@ -1,0 +1,12 @@
+# Large Model Files
+*.weights
+*.cfg
+*.names
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment
+.env
+venv/
