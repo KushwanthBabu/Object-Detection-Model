@@ -174,4 +174,4 @@ def detect_image():
     return send_file(io.BytesIO(buffer), mimetype='image/jpeg')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
